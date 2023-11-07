@@ -1,0 +1,44 @@
+:root {
+    --white: white;
+    --bg: #000;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition-duration: 0.5s;
+  font-family: sans-serif;
+  font-family: 'Bad Script', cursive !important;
+  font-family: 'Montserrat', sans-serif !important;
+  font-family: 'Ubuntu', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  width: 100vw;
+  overflow-x: hidden;
+  background: var(--bg);
+  color: var(--white);
+}
+header {
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 100%;
+    backdrop-filter: blur(12px);
+    padding: 0px 50px;
+}
+header menu a {
+    color: var(--white);
+    text-decoration: none;
+}
