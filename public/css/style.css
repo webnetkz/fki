@@ -1,5 +1,7 @@
 :root {
     --white: white;
+    --red: red;
+    --gray: rgb(128, 128, 128);
     --bg: #000;
 }
 * {
@@ -37,8 +39,29 @@ header {
     width: 100%;
     backdrop-filter: blur(12px);
     padding: 0px 50px;
+    border-bottom: 0.1px solid rgba(128, 128, 128, 0.3);
+}
+header .logo img {
+    height: 35px;
+    filter: invert(100);
 }
 header menu a {
     color: var(--white);
     text-decoration: none;
+    margin-right: 7px;
+}
+.menu-icon img {
+    width: 50px;
+    height: 25px;
+}
+.menu-icon:hover {
+    cursor: pointer;
+    transform: scaleX(1.4);
+}
+
+
+footer .copyright a {
+    color: var(--gray);
+    font-size: 0.8rem;
+    text-transform: uppercase;
 }
