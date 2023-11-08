@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./public/img/logo.png" type="image/x-icon">
     <title>Фабрика кованых изделий</title>
     <link rel="stylesheet" href="./public/css/style.css">
     <link rel="stylesheet" href="./public/css/mobile.css">
@@ -22,14 +23,19 @@
             <a href="#">Галерея работ</a>
             <a href="#">Контакты</a>
         </menu>
-        <span class="menu-icon">
+        <span class="menu-icon" onclick="showCloseMenu(this)">
             <img src="./public/img/icons/menu.png" alt="menu image">
         </span>
     </header>
 
     
-    <section id="startSection">
-
+    <section id="startSection" style="background: url('./public/img/index_start_bg.png');">
+        <h1>Фабрика кованных изделий</h1>
+        <div class="rombs-container">
+            <span class="romb"></span><span class="romb"></span><span class="romb"></span><span class="romb"></span>
+        </div>
+        <h2>Предприятие, которое специализируется на изготовлении кованых изделий</h2>
+        <button>подробнее</button>
     </section>
 
     <section id="content">
@@ -44,5 +50,7 @@
             </a>
         </span>
     </footer>
+
+    <script src="./public/js/main.js"></script>
 </body>
 </html>
