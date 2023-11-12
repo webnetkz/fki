@@ -1,0 +1,65 @@
+#startSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+#startSection h1 {
+    text-align: center;
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    color: var(--red);
+    margin-bottom: 20px;
+}
+#startSection h2 {
+    width: 500px;
+    margin-bottom: 40px;
+}
+.contacts {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid var(--gray);
+    border-bottom: 1px solid var(--gray);
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+}
+.contacts > div {
+    width: 33.3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.contacts > div:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.contacts > div span {
+    text-transform: uppercase;
+}
+.contacts > div a {
+    color: var(--red);
+    font-family: 'Aldrich';
+}
+.contacts > div a:hover {
+    color: var(--red);
+    font-family: 'Aldrich';
+    color: var(--white);
+}
+.contacts > div:first-child {
+    border-right: 1px solid var(--gray);
+}
+.contacts > div:last-child {
+    border-left: 1px solid var(--gray);
+}

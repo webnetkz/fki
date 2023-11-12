@@ -1,0 +1,33 @@
+#feedback {
+    margin-top: 50px;
+    color: var(--white);
+}
+#feedback > div {
+    width: 700px;
+}
+.inputs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+#feedback form input,
+#feedback form textarea {
+    padding: 5px 15px;
+    border: 1px solid var(--gray);
+    background-color: rgba(0,0,0,0);
+    font-size: 1.6rem;
+    outline: none;
+    color: var(--white);
+    width: 49%;
+    font-weight: 100;
+}
+#feedback form textarea {
+    width: 90%;
+}
+#feedback form input:hover,
+#feedback form input:focus {
+    border-color: var(--white);
+}
+.textarea {
+    margin-bottom: 20px;
+}

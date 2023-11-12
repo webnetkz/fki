@@ -20,15 +20,14 @@
             <a href="#">Перила</a>
             <a href="#">Элементы</a>
             <a href="#">Изделия</a>
-            <a href="#">Галерея работ</a>
-            <a href="#">Контакты</a>
+            <a href="#portfolio">Галерея работ</a>
+            <a href="#feedback">Контакты</a>
         </menu>
         <span class="menu-icon" onclick="showCloseMenu(this)">
             <img src="./public/img/icons/menu.png" alt="menu image">
         </span>
     </header>
 
-    
     <section id="startSection" style="background: url('./public/img/index_start_bg.png');">
         <h1>Фабрика кованных изделий</h1>
         <div class="rombs-container">
@@ -36,10 +35,105 @@
         </div>
         <h2>Предприятие, которое специализируется на изготовлении кованых изделий</h2>
         <button>подробнее</button>
+        <div class="contacts">
+            <div>
+                <span>Адрес</span>
+                <a href="#">Fadeeva 82</a>
+            </div>
+            <div>
+                <span>Телефон</span>
+                <a href="tel:+77074486128">+77074486128</a>
+            </div>
+            <div>
+                <span>Социальные сети</span>
+                <div>
+                    <a href="#">Instagramm /</a>
+                    <a href="#">Youtube</a>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section id="content">
 
+    </section>
+
+    <section id="portfolio">
+        <h4>Наши работы</h4>
+        <div class="rombs-container">
+            <span class="romb"></span><span class="romb"></span><span class="romb"></span><span class="romb"></span>
+        </div>
+        <div class="our-projects-links">
+            <div>
+                <a href="#">
+                    <img src="./public/img/fki/1.jpeg" alt="Fki images">
+                </a>
+                <a href="#">
+                    <img src="./public/img/fki/2.jpeg" alt="Fki images">
+                </a>
+                <a href="#">
+                    <img src="./public/img/fki/3.jpeg" alt="Fki images">
+                </a>
+                <a href="#">
+                    <img src="./public/img/fki/4.jpeg" alt="Fki images">
+                </a>
+                <a href="#">
+                    <img src="./public/img/fki/5.jpeg" alt="Fki images">
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="./public/img/fki/6.jpeg" alt="Fki images">
+                </a>
+                <a href="#">
+                    <img src="./public/img/fki/7.jpeg" alt="Fki images">
+                </a>
+                <a href="#">
+                    <img src="./public/img/fki/8.jpeg" alt="Fki images">
+                </a>
+                <a href="#">
+                    <img src="./public/img/fki/9.jpeg" alt="Fki images">
+                </a>
+                <a href="#">
+                    <img src="./public/img/fki/10.jpeg" alt="Fki images">
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="./public/img/fki/11.jpeg" alt="Fki images">
+                </a>
+                <a href="#">
+                    <img src="./public/img/fki/12.jpeg" alt="Fki images">
+                </a>
+                <a href="#">
+                    <img src="./public/img/fki/13.jpeg" alt="Fki images">
+                </a>
+                <a href="#">
+                    <img src="./public/img/fki/14.jpeg" alt="Fki images">
+                </a>
+                <a href="#">
+                    <img src="./public/img/fki/15.jpeg" alt="Fki images">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="feedback">
+        <div>
+            <h4>Ответим на любой вопрос</h4>
+            <form action="#">
+                <div class="inputs">
+                    <input type="text" name="name" placeholder="ИМЯ" required>
+                    <input type="phone" name="phone" placeholder="ТЕЛЕФОН" required>
+                </div>
+                <div class="textarea">
+                    <textarea name="message" placeholder="Вопрос по ковке, дизайну и др." rows="5"></textarea>
+                </div>
+                <div class="submit">
+                    <button>Отправить</button>
+                </div>
+            </form>
+        </div>
     </section>
 
     <footer>

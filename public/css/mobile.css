@@ -1,5 +1,6 @@
 @media (max-width: 1200px) {
     #startSection {
+        background-position: center center!important;
     }
     #startSection h1, #startSection h2 {
         width: 98vw;
