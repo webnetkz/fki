@@ -2,6 +2,22 @@
     margin-top: 50px;
     color: var(--white);
 }
+.social-of-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: -20px;
+}
+.social-of-form img {
+    width: 40px;
+    padding: 7px;
+    border: 1px solid var(--white);
+}
+.social-of-form img:hover {
+    cursor: pointer;
+    border: 1px solid var(--gray);
+}
+
 #feedback > div {
     width: 700px;
 }
@@ -10,8 +26,17 @@
     justify-content: space-between;
     margin-bottom: 20px;
 }
+#feedback form .social-container {
+    display: flex;
+    height: 100%;
+}
+#feedback form .social-container textarea {
+    width: 650px;
+    margin-right: 10px;
+}
 #feedback form input,
 #feedback form textarea {
+    display: block;
     padding: 5px 15px;
     border: 1px solid var(--gray);
     background-color: rgba(0,0,0,0);

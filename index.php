@@ -1,33 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="./public/img/logo.png" type="image/x-icon">
-    <title>Фабрика кованых изделий</title>
-    <link rel="stylesheet" href="./public/css/style.css">
-    <link rel="stylesheet" href="./public/css/mobile.css">
-</head>
-<body>
-    <header>
-        <a href="#" class="logo">
-            <img src="./public/img/logo.png" alt="logotype of fki">
-        </a>
-        <menu>
-            <a href="#">Главная</a>
-            <a href="#">Ворота</a>
-            <a href="#">Кровати</a>
-            <a href="#">Перила</a>
-            <a href="#">Элементы</a>
-            <a href="#">Изделия</a>
-            <a href="#portfolio">Галерея работ</a>
-            <a href="#feedback">Контакты</a>
-        </menu>
-        <span class="menu-icon" onclick="showCloseMenu(this)">
-            <img src="./public/img/icons/menu.png" alt="menu image">
-        </span>
-    </header>
-
+<?php require_once 'header.php'; ?>
     <section id="startSection" style="background: url('./public/img/index_start_bg.png');">
         <h1>Фабрика кованных изделий</h1>
         <div class="rombs-container">
@@ -38,7 +9,7 @@
         <div class="contacts">
             <div>
                 <span>Адрес</span>
-                <a href="#">Fadeeva 82</a>
+                <a href="https://2gis.kz/almaty/firm/70000001046851193" target="_blank">Fadeeva 82</a>
             </div>
             <div>
                 <span>Телефон</span>
@@ -47,15 +18,25 @@
             <div>
                 <span>Социальные сети</span>
                 <div>
-                    <a href="#">Instagramm /</a>
-                    <a href="#">Youtube</a>
+                    <a href="https://www.instagram.com/fki.kz/" target="_blank">Instagramm /</a>
+                    <a href="https://www.youtube.com/@fki_kz" target="_blank">Youtube</a>
                 </div>
             </div>
         </div>
     </section>
 
     <section id="content">
-
+        <h2>Фабрика кованых изделий – это предприятие, которое специализируется на изготовлении кованых изделий. В ассортименте такие изделия, как:</h2>
+        <hr>
+        <ul>
+            <li>Кованые ворота: элегантное и практичное решение для оформления входа в дом или участок.</li>
+            <li>Кованые ограждения: отличное решение для ограждения территорий, парковок, садов и т.д.</li>
+            <li>Кованые заборы: эффективная защита от сторонних глаз и шума.</li>
+            <li>Кованые мебельные изделия: стулья, столы, кресла и т.д.</li>
+        </ul>
+        <hr>
+        <p>Изделия, изготавливаемые на фабрике кованых изделий, изготавливаются из высококачественной стали что позволяет им прослужить многие годы, не требуя серьезного ухода. Кроме того, Фабрика кованых изделий предлагает своим клиентам широкий выбор различных моделей и размеров кованых изделий, что позволит выбрать оптимальное решение для любых потребностей. Также фабрика предлагает услуги по изготовлению изделий на заказ, что позволит создать уникальное изделие, соответствующее индивидуальным предпочтениям и требованиям клиента.</p>
+        <p>Фабрика кованых изделий работает с технологически современным оборудованием и налаженными производственными процессами, что позволяет изготавливать качественные изделия с высокой точностью. Кроме того, фабрика работает с технически квалифицированными специалистами, которые обеспечат качественное изготовление и установку изделий.</p>
     </section>
 
     <section id="portfolio">
@@ -117,34 +98,4 @@
             </div>
         </div>
     </section>
-
-    <section id="feedback">
-        <div>
-            <h4>Ответим на любой вопрос</h4>
-            <form action="#">
-                <div class="inputs">
-                    <input type="text" name="name" placeholder="ИМЯ" required>
-                    <input type="phone" name="phone" placeholder="ТЕЛЕФОН" required>
-                </div>
-                <div class="textarea">
-                    <textarea name="message" placeholder="Вопрос по ковке, дизайну и др." rows="5"></textarea>
-                </div>
-                <div class="submit">
-                    <button>Отправить</button>
-                </div>
-            </form>
-        </div>
-    </section>
-
-    <footer>
-        <span class="copyright">
-            <a href="#">
-                <b>«Фабрика кованых изделий»</b>
-                1997-2023 ©
-            </a>
-        </span>
-    </footer>
-
-    <script src="./public/js/main.js"></script>
-</body>
-</html>
+<?php require_once 'footer.php'; ?>
