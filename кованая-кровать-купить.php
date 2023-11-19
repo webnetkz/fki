@@ -10,6 +10,6 @@ src="https://www.youtube.com/embed/khydUFz8KFw?feature=oembed"
 frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 allowfullscreen="" name="fitvid0"
-style="width: 100vw;"></iframe>
+style="width: 100vw; min-height: 60vh"></iframe>
 
 <?php require_once 'footer.php'; ?>

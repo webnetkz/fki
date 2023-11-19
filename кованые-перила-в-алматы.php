@@ -5,16 +5,12 @@
     <p>Кованые перила – это не только элемент декора, но и надежная защита для вашего дома. С их помощью вы можете создать уникальный облик своего имущества, а также обеспечить безопасность своим близким. Кованые перила изготавливаются из высококачественных материалов, таких как сталь или латунь, и обладают превосходной прочностью. Они не только выглядят элегантно, но и способны выдерживать серьезные нагрузки. Доверьте изготовление кованых перил нашим профессиональным мастерам, и мы обеспечим вам качественный и надежный монтаж этого важного элемента безопасности. с десятилетней гарантией от Фабрики!</p>
 </div>
 
-<div style="width: 100vw; height: 56.25vw; max-height: 100vh; position: relative;">
-        <iframe
-            width="100%"
-            height="100%"
-            src="https://www.youtube.com/watch?v=P7BqMOJ-2ng"
-            frameborder="0"
-            allowfullscreen
-            style="position: absolute; top: 0; left: 0;"
-        ></iframe>
-</div>
+<iframe title="Кованые перила в Казахстане, Алматы, Астане, Актау,"
+        src="https://www.youtube.com/watch?v=P7BqMOJ-2ng?feature=oembed"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen="" name="fitvid0"
+        style="width: 100vw; min-height: 60vh"></iframe>
 <p>Все перила у нас собственного производство от мелких элементов до огромных колонн. В Алматы мы одни из самых лучших мастеров! Добро пожаловать к нам в Кузню!</p>
 <section id="portfolio">
     <div class="our-projects-links">
@@ -227,16 +223,12 @@
         </div>
     </div>
 
-    <div style="width: 100vw; height: 56.25vw; max-height: 100vh; position: relative;">
-        <iframe
-            width="100%"
-            height="100%"
-            src="https://www.youtube.com/watch?v=ykvT18-RtZ8&t=6s"
+    <iframe title="Кованые перила в Казахстане, Алматы, Астане, Актау,"
+            src="https://www.youtube.com/watch?v=ykvT18-RtZ8&t=6s?v=P7BqMOJ-2ng?feature=oembed"
             frameborder="0"
-            allowfullscreen
-            style="position: absolute; top: 0; left: 0;"
-        ></iframe>
-</div>
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen="" name="fitvid0"
+            style="width: 100vw; min-height: 60vh"></iframe>
 </section>
 
 <?php require_once 'footer.php'; ?>

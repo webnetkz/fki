@@ -13,45 +13,39 @@
 </div>
 
 <div style="width: 100vw; height: 56.25vw; max-height: 100vh; position: relative;">
-        <iframe
-            width="100%"
-            height="100%"
-            src="https://www.youtube.com/watch?v=EANJ6u5KzDw"
-            frameborder="0"
-            allowfullscreen
-            style="position: absolute; top: 0; left: 0;"
-        ></iframe>
+
+        <iframe title="Кованые ворота в Казахстане, Алматы, Астане, Актау,"
+        src="https://www.youtube.com/watch?v=EANJ6u5KzDw?feature=oembed"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen="" name="fitvid0"
+        style="width: 100vw; min-height: 60vh"></iframe>
 
         <p>Кованные ворота и калитка полностью изготовленные нашей фабрикой.
         Процесс: изготовления, покраски и монтажа.
         Размер данных Ворот: 4,9м * 3,7м  Калитка: 2,1м * 1м</p>
 
-        <iframe
-            width="100%"
-            height="100%"
-            src="https://www.youtube.com/watch?v=EANJ6u5KzDw"
-            frameborder="0"
-            allowfullscreen
-            style="position: absolute; top: 0; left: 0;"
-        ></iframe>
 
-        <iframe
-            width="100%"
-            height="100%"
-            src="https://www.youtube.com/watch?v=Y_SomZRH1fc&t=352s"
-            frameborder="0"
-            allowfullscreen
-            style="position: absolute; top: 0; left: 0;"
-        ></iframe>
+        <iframe title="Кованые ворота в Казахстане, Алматы, Астане, Актау,"
+        src="https://www.youtube.com/watch?v=EANJ6u5KzDw?feature=oembed"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen="" name="fitvid0"
+        style="width: 100vw; min-height: 60vh"></iframe>
 
-        <iframe
-            width="100%"
-            height="100%"
-            src="https://www.youtube.com/watch?v=sjwMUU5wfFg&t=8s"
-            frameborder="0"
-            allowfullscreen
-            style="position: absolute; top: 0; left: 0;"
-        ></iframe>
+        <iframe title="Кованые ворота в Казахстане, Алматы, Астане, Актау,"
+        src="https://www.youtube.com/watch?v=Y_SomZRH1fc&t=352s?feature=oembed"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen="" name="fitvid0"
+        style="width: 100vw; min-height: 60vh"></iframe>
+
+        <iframe title="Кованые ворота в Казахстане, Алматы, Астане, Актау,"
+        src="https://www.youtube.com/watch?v=sjwMUU5wfFg&t=8s?feature=oembed"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen="" name="fitvid0"
+        style="width: 100vw; min-height: 60vh"></iframe>
 </div>
 
 

@@ -7,14 +7,12 @@
     <p>Гибка и рубка металла требует точности и внимательности, чтобы избежать его повреждения. Неправильно выполненные операции могут привести к повреждению металла и снижению качества изготавливаемых изделий. Чтобы этого избежать, следует соблюдать технологические нормы и рекомендации производителей оборудования, а также использовать только качественное и надежное оборудование.</p>
 </div>
 
-<div style="width: 100vw; height: 56.25vw; max-height: 100vh; position: relative;">
-        <iframe
-            width="100%"
-            height="100%"
-            src="https://www.youtube.com/embed/Fs0GRMJoz7o"
-            frameborder="0"
-            allowfullscreen
-            style="position: absolute; top: 0; left: 0;"
-        ></iframe>
-</div>
+
+<iframe title="Гибка металла в Казахстане, Алматы, Астане, Актау,"
+src="https://www.youtube.com/embed/Fs0GRMJoz7o?feature=oembed"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+allowfullscreen="" name="fitvid0"
+style="width: 100vw; min-height: 60vh"></iframe>
+
 <?php require_once 'footer.php'; ?>
