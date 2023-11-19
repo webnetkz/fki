@@ -14,7 +14,7 @@
             <img src="./public/img/logo.png" alt="logotype of fki">
         </a>
         <menu>
-            <a href="#">Главная</a>
+            <a href="index#">Главная</a>
             <a href="кованые-ворота">Ворота</a>
             <a href="кованая-кровать-купить">Кровати</a>
             <a href="кованые-перила-в-алматы">Перила</a>

@@ -62,4 +62,7 @@
         width: 98vw;
         margin-left: 1vw;
     }
+    #feedback form .social-container textarea {
+        width: 80vw;
+    }
 }

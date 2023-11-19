@@ -152,6 +152,11 @@ footer .copyright a {
 }
 
 @media (max-width: 1199px) {
-
+    .menu-icon {
+        display: block;
+    }
+    footer .copyright a {
+        font-size: 0.6rem;
+    }
 }
   
