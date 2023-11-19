@@ -11,16 +11,15 @@
     <p>Кованые элементы в Алматы — ваш ключ к созданию элегантного и утонченного образа вашего дома. Предоставьте свой дом настоящему произведению искусства, и он станет центром восхищения ваших гостей и соседей. Отправьте нам запрос или свяжитесь с нами прямо сейчас, и дайте себе шанс создать что-то поистине великолепное!</p>
 </div>
 
-<div style="width: 100vw; height: 56.25vw; max-height: 100vh; position: relative;">
-        <iframe
-            width="100%"
-            height="100%"
+
+<iframe title="Кованые перила в Казахстане, Алматы, Астане, Актау,"
             src="https://www.youtube.com/watch?v=khydUFz8KFw"
             frameborder="0"
-            allowfullscreen
-            style="position: absolute; top: 0; left: 0;"
-        ></iframe>
-</div>
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen="" name="fitvid0"
+            style="width: 100vw; min-height: 60vh"></iframe>
+
+
 <h2>Кованые элементы</h2>
 <p>Кованый Элемент N0001</p>
 <img src="" alt="">

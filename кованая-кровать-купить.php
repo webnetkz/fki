@@ -5,7 +5,7 @@
     <p>Наша компания предлагает огромный ассортимент кованых кроватей ручной работы в Алматы. Мы занимаемся всем процессом от эскиза до готового художественного произведения искусства в вашей спальне. Мы гарантируем максимально быстрое и надежное изготовление наших изделий.</p>
 </div>
 
-<iframe title="Кованые элементы на заказ в Казахстане, Алматы, Астане, Актау,"
+<iframe title="Кованая кровать на заказ в Казахстане, Алматы, Астане, Актау,"
 src="https://www.youtube.com/embed/khydUFz8KFw?feature=oembed"
 frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
