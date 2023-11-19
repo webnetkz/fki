@@ -103,7 +103,6 @@ header menu a:hover {
 }
 .menu-icon {
     position: fixed;
-    right: 50px;
     display: none;
 }
 .menu-icon img {
@@ -154,6 +153,7 @@ footer .copyright a {
 @media (max-width: 1199px) {
     .menu-icon {
         display: block;
+        left: 75vw;
     }
     footer .copyright a {
         font-size: 0.6rem;

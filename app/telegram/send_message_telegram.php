@@ -7,6 +7,10 @@ if(isset($_POST['name']) && !empty($_POST['name']) && isset($_POST['phone']) && 
     $message = "*Имя:* \n{$_POST['name']}\n";
     $message .= "*Телефон:* \n{$_POST['phone']}";
 
+    if(isset($_POST['message']) && !empty($_POST['message'])) {
+        $message .= "*Сообщение:* \n{$_POST['message']}";
+    }
+
     $url = "https://api.telegram.org/bot$bot_token/sendMessage?chat_id=643910578&parse_mode=Markdown&text=" . urlencode($message);
 
     $result = file_get_contents($url);

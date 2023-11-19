@@ -5,14 +5,11 @@
     <p>Наша компания предлагает огромный ассортимент кованых кроватей ручной работы в Алматы. Мы занимаемся всем процессом от эскиза до готового художественного произведения искусства в вашей спальне. Мы гарантируем максимально быстрое и надежное изготовление наших изделий.</p>
 </div>
 
-<div style="width: 100vw; height: 56.25vw; max-height: 100vh; position: relative;">
-        <iframe
-            width="100%"
-            height="100%"
-            src="https://www.youtube.com/watch?v=SXETN3XEgEs&t=1s"
-            frameborder="0"
-            allowfullscreen
-            style="position: absolute; top: 0; left: 0;"
-        ></iframe>
-</div>
+<iframe title="Кованые элементы на заказ в Казахстане, Алматы, Астане, Актау,"
+src="https://www.youtube.com/embed/khydUFz8KFw?feature=oembed"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+allowfullscreen="" name="fitvid0"
+style="width: 100vw;"></iframe>
+
 <?php require_once 'footer.php'; ?>

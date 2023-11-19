@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <a href="#" class="logo">
+        <a href="index" class="logo">
             <img src="./public/img/logo.png" alt="logotype of fki">
         </a>
         <menu>
@@ -21,7 +21,7 @@
             <a href="кованые-элементы-в-алматы">Элементы</a>
             <a href="кованые-изделия-в-алматы">Изделия</a>
             <a href="index#portfolio">Галерея работ</a>
-            <a href="#feedback">Контакты</a>
+            <a href="index#feedback">Контакты</a>
         </menu>
         <span class="menu-icon" onclick="showCloseMenu(this)">
             <img src="./public/img/icons/menu.png" alt="menu image">
