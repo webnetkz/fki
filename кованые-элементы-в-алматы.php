@@ -18,13 +18,12 @@ require_once 'header.php';
 </div>
 
 
-<iframe title="Кованые перила в Казахстане, Алматы, Астане, Актау,"
-            src="https://www.youtube.com/watch?v=khydUFz8KFw"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen="" name="fitvid0"
-            style="width: 100vw; min-height: 60vh"></iframe>
-
+<iframe title="Кованые элементы на заказ в Казахстане, Алматы, Астане, Актау,"
+src="https://www.youtube.com/watch?v=khydUFz8KFw?feature=oembed"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+allowfullscreen="" name="fitvid0"
+style="width: 100vw; min-height: 60vh"></iframe>
 
 <h2>Кованые элементы</h2>
 <p>Кованый Элемент N0001</p>

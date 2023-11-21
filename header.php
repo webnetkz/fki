@@ -1,5 +1,7 @@
 <?php 
 
+$description = 'Фабрика кованых изделий – это предприятие, которое специализируется на изготовлении кованых изделий. В ассортименте такие изделия, как: Кованые ворота: элегантное и практичное решение для оформления входа в дом или участок.Кованые ограждения: отличное решение для ограждения территорий, парковок, садов и т.д.Кованые заборы: эффективная защита от сторонних глаз и шума.Кованые мебельные изделия: стулья, столы, кресла и т.д.';
+
 if(!isset($title) || empty($title)) {
     $title = '';
 }
@@ -12,6 +14,7 @@ if(!isset($title) || empty($title)) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./public/img/logo.png" type="image/x-icon">
+    <meta name="description" content="<?=$description;?>">
     <title><?=$title;?></title>
     <link rel="stylesheet" href="./public/css/style.css">
     <link rel="stylesheet" href="./public/css/mobile.css">

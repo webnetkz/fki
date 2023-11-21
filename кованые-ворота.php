@@ -29,7 +29,6 @@ style="width: 100vw; min-height: 60vh"></iframe>
 Процесс: изготовления, покраски и монтажа.
 Размер данных Ворот: 4,9м * 3,7м  Калитка: 2,1м * 1м</p>
 
-
 <iframe title="Кованые ворота на заказ в Казахстане, Алматы, Астане, Актау,"
 src="https://www.youtube.com/watch?v=EANJ6u5KzDw?feature=oembed"
 frameborder="0"
@@ -50,7 +49,5 @@ frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 allowfullscreen="" name="fitvid0"
 style="width: 100vw; min-height: 60vh"></iframe>
-
-
 
 <?php require_once 'footer.php'; ?>

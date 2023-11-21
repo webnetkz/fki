@@ -69,11 +69,9 @@
         {
             if (xhr.status === 200)
             {
-                let messageBlock = document.querySelector('.mini-message');
-
-                document.body.innerHTML += `<div class="mini-message">
-                Заявка принята, наш менеджер скоро свяжится с вами.
-                </div>`;
+                let messageBlock = document.createElement('div');
+                    messageBlock.classList.add('mini-message');
+                    messageBlock.innerText = 'Заявка принята, наш менеджер скоро свяжится с вами.';
 
                 messageBlock.addEventListener('click', () => {
                     messageBlock.remove();

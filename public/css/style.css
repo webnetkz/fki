@@ -159,4 +159,11 @@ footer .copyright a {
         font-size: 0.6rem;
     }
 }
-  
+.mini-message {
+    position: fixed;
+    top: 50px;
+    width: 90vw;
+    left: 5vw;
+    padding: 5px 20px;
+    font-size: 1.3rem;
+}
