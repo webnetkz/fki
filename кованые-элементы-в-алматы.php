@@ -19,7 +19,7 @@ require_once 'header.php';
 
 
 <iframe title="Кованые элементы на заказ в Казахстане, Алматы, Астане, Актау,"
-src="https://www.youtube.com/watch?v=khydUFz8KFw?feature=oembed"
+src="https://www.youtube.com/embed/khydUFz8KFw?feature=oembed"
 frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 allowfullscreen="" name="fitvid0"
