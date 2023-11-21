@@ -11,12 +11,9 @@ require_once 'header.php';
     <p>Кованые перила – это не только элемент декора, но и надежная защита для вашего дома. С их помощью вы можете создать уникальный облик своего имущества, а также обеспечить безопасность своим близким. Кованые перила изготавливаются из высококачественных материалов, таких как сталь или латунь, и обладают превосходной прочностью. Они не только выглядят элегантно, но и способны выдерживать серьезные нагрузки. Доверьте изготовление кованых перил нашим профессиональным мастерам, и мы обеспечим вам качественный и надежный монтаж этого важного элемента безопасности. с десятилетней гарантией от Фабрики!</p>
 </div>
 
-<iframe title="Кованые перила в Казахстане, Алматы, Астане, Актау,"
-        src="https://www.youtube.com/watch?v=P7BqMOJ-2ng?feature=oembed"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen="" name="fitvid0"
-        style="width: 100vw; min-height: 60vh"></iframe>
+<iframe title="Кованые перила в Алматы, Астане, Казахстане" src="https://www.youtube.com/embed/P7BqMOJ-2ng?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" name="fitvid0"
+style="width: 100vw; min-height: 60vh"    
+></iframe>
 <p>Все перила у нас собственного производство от мелких элементов до огромных колонн. В Алматы мы одни из самых лучших мастеров! Добро пожаловать к нам в Кузню!</p>
 <section id="portfolio">
     <div class="our-projects-links">
@@ -229,12 +226,9 @@ require_once 'header.php';
         </div>
     </div>
 
-    <iframe title="Кованые перила в Казахстане, Алматы, Астане, Актау,"
-            src="https://www.youtube.com/watch?v=ykvT18-RtZ8&t=6s?v=P7BqMOJ-2ng?feature=oembed"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen="" name="fitvid0"
-            style="width: 100vw; min-height: 60vh"></iframe>
+    <iframe loading="lazy" title="Кованые перила в Алматы, Астане (Нур-Султане)" src="https://www.youtube.com/embed/ykvT18-RtZ8?start=6&amp;feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" name="fitvid1"
+    style="width: 100vw; min-height: 60vh"        
+    ></iframe>
 </section>
 
 <?php require_once 'footer.php'; ?>
