@@ -1,4 +1,10 @@
-<?php require_once 'header.php'; ?>
+<?php 
+
+$title = 'Фабрика кованых изделий - Фабрика кованых изделий';
+
+require_once 'header.php';
+
+?>
     <section id="startSection" style="background: url('./public/img/index_start_bg.png');">
         <h1>Фабрика кованных изделий</h1>
         <div class="rombs-container">

@@ -1,4 +1,10 @@
-<?php require_once 'header.php'; ?>
+<?php 
+
+$title = 'Фабрика кованых изделий - Фабрика кованых изделий';
+
+require_once 'header.php';
+
+?>
 
 <div id="content">
     <h2>Кованые элементы в Алматы</h2>

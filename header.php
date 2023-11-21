@@ -1,10 +1,18 @@
+<?php 
+
+if(!isset($title) || empty($title)) {
+    $title = '';
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./public/img/logo.png" type="image/x-icon">
-    <title>Фабрика кованых изделий</title>
+    <title><?=$title;?></title>
     <link rel="stylesheet" href="./public/css/style.css">
     <link rel="stylesheet" href="./public/css/mobile.css">
 </head>

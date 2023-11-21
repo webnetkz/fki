@@ -1,5 +1,5 @@
 
-<section id="feedback">
+    <section id="feedback">
         <div>
             <h4>Ответим на любой вопрос</h4>
             <form method="POST" onsubmit="isSendForm(event)">
@@ -56,7 +56,7 @@
 
         let name = document.querySelector("input[name='name']").value;
         let phone = document.querySelector("input[name='phone']").value;
-        let text = document.querySelector("textarea").value;
+        let message = document.querySelector("textarea[name='message']").value;
 
 
         let xhr = new XMLHttpRequest();
@@ -94,6 +94,6 @@
             console.error("Ошибка сети");
         };
 
-        xhr.send("name=" + encodeURIComponent(name) + "&phone=" + encodeURIComponent(phone) + "&text=" + encodeURIComponent(text));
+        xhr.send("name=" + encodeURIComponent(name) + "&phone=" + encodeURIComponent(phone) + "&message=" + encodeURIComponent(message));
     }
 </script>
