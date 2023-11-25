@@ -39,3 +39,19 @@ if(!isset($title) || empty($title)) {
             <img src="./public/img/icons/menu.png" alt="menu image">
         </span>
     </header>
+
+<script>
+    fetch(url)
+        .then(response => response.text())
+        .then(uri => {
+            document.querySelectorAll('header menu a').foreach((elementMenu) => {
+                if(elementMenu.getAttribute('href') === uri) {
+                    document.querySelector('header menu a.active').classList.remove('active');
+                    elementMenu.classList.add('active');
+                }
+            });
+        })
+        .catch(error => console.error('Ошибка при получении данных:', error));
+
+    
+</script>

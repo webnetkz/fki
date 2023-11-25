@@ -98,6 +98,7 @@ header menu a {
     border-radius: var(--br);
     padding: 3px 9px;
 }
+header menu a.active,
 header menu a:hover {
     border: 1px solid var(--red);
 }

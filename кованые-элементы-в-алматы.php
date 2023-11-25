@@ -1,6 +1,6 @@
 <?php 
 
-$title = 'Фабрика кованых изделий - Фабрика кованых изделий';
+$title = 'Кованые элементы - Фабрика кованых изделий';
 
 require_once 'header.php';
 
@@ -18,12 +18,7 @@ require_once 'header.php';
 </div>
 
 
-<iframe title="Кованые элементы на заказ в Казахстане, Алматы, Астане, Актау,"
-src="https://www.youtube.com/embed/khydUFz8KFw?feature=oembed"
-frameborder="0"
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-allowfullscreen="" name="fitvid0"
-style="width: 100vw; min-height: 60vh"></iframe>
+
 
 <h2>Кованые элементы</h2>
 <p>Кованый Элемент N0001</p>

@@ -5,17 +5,18 @@ $title = 'Фабрика кованых изделий - Фабрика кова
 require_once 'header.php';
 
 ?>
+
     <section id="startSection" style="background: url('./public/img/index_start_bg.png');">
         <h1>Фабрика кованных изделий</h1>
         <div class="rombs-container">
             <span class="romb"></span><span class="romb"></span><span class="romb"></span><span class="romb"></span>
         </div>
         <h2>Предприятие, которое специализируется на изготовлении кованых изделий</h2>
-        <button>подробнее</button>
+        <button onclick="location.href='index#content'">подробнее</button>
         <div class="contacts">
             <div>
                 <span>Адрес</span>
-                <a href="https://2gis.kz/almaty/firm/70000001046851193" target="_blank">Fadeeva 82</a>
+                <a href="https://2gis.kz/almaty/firm/70000001046851193" target="_blank">Фадеева 82</a>
             </div>
             <div>
                 <span>Телефон</span>
@@ -24,12 +25,20 @@ require_once 'header.php';
             <div>
                 <span>Социальные сети</span>
                 <div>
-                    <a href="https://www.instagram.com/fki.kz/" target="_blank">Instagramm /</a>
-                    <a href="https://www.youtube.com/@fki_kz" target="_blank">Youtube</a>
+                    <a href="https://www.instagram.com/fki.kz/" target="_blank">
+                        <img src="./public/img/icons/instagram.png" alt="instagram">
+                        Instagramm
+                    </a>
+                    <a href="https://www.youtube.com/@fki_kz" target="_blank">
+                        <img src="./public/img/icons/youtube.svg" alt="youtube">
+                        Youtube
+                    </a>
                 </div>
             </div>
         </div>
     </section>
+
+                        
 
     <section id="content">
         <h2>Фабрика кованых изделий – это предприятие, которое специализируется на изготовлении кованых изделий. В ассортименте такие изделия, как:</h2>
