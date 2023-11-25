@@ -17,9 +17,11 @@
     transform: scale(0.9);
 }
 @media (max-width: 1200px) {
+    .our-projects-links {
+        flex-direction: column;
+    }
     .our-projects-links a img {
         height: 50vh;
         width: 100vw;
-        object-fit: cover;
     }
 }

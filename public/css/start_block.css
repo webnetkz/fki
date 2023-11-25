@@ -51,6 +51,12 @@
 .contacts > div a {
     color: var(--red);
     font-family: 'Aldrich';
+    display: flex;
+    align-items: center;
+}
+.contacts > div a img {
+    width: 20px;
+    margin-right: 5px;
 }
 .contacts > div a:hover {
     color: var(--red);

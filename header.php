@@ -25,7 +25,7 @@ if(!isset($title) || empty($title)) {
             <img src="./public/img/logo.png" alt="logotype of fki">
         </a>
         <menu>
-            <a href="index#">Главная</a>
+            <a href="index#" class="active">Главная</a>
             <a href="гибка-металла-в-алматы">Гибка</a>
             <a href="кованые-ворота">Ворота</a>
             <a href="кованые-изделия-в-алматы">Изделия</a>
@@ -41,7 +41,7 @@ if(!isset($title) || empty($title)) {
     </header>
 
 <script>
-    fetch(url)
+    fetch(location.href)
         .then(response => response.text())
         .then(uri => {
             document.querySelectorAll('header menu a').foreach((elementMenu) => {
