@@ -17,7 +17,7 @@ require_once 'header.php';
             <div class="contacts">
                 <div>
                     <span>Адрес</span>
-                    <a href="https://2gis.kz/almaty/firm/70000001046851193" target="_blank">Фадеева 82</a>
+                    <a href="https://2gis.kz/almaty/firm/70000001046851193" style="font-size: 1.3rem;" target="_blank">Фадеева 82</a>
                 </div>
                 <div>
                     <span>Телефон</span>
