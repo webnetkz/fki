@@ -12,9 +12,6 @@
 }
 .start-section-stub {
     background: rgba(0, 0, 0, 0.6);
-    width: 100vh;
-    height: 100vh;
-    padding-top: 30vh;
 }
 #startSection h1 {
     text-align: center;
