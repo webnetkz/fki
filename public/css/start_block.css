@@ -12,6 +12,9 @@
 }
 .start-section-stub {
     background: rgba(0, 0, 0, 0.6);
+    width: 100vh;
+    height: 100vh;
+    padding-top: 30vh;
 }
 #startSection h1 {
     text-align: center;
@@ -27,6 +30,7 @@
     width: 500px;
     margin-bottom: 40px;
     text-align: center;
+    margin-left: calc(50vw - 250px);
 }
 .contacts {
     position: absolute;
