@@ -6,7 +6,7 @@ require_once 'header.php';
 
 ?>
 
-    <section id="startSection" style="background: url('./public/img/index_start_bg.png');background-repeat: no-repeat;background-size: contain;">
+    <section id="startSection" style="background: url('./public/img/index_start_bg.png');background-repeat: no-repeat;background-size: cover;">
         <div class="start-section-stub">
             <h1>Фабрика кованных изделий</h1>
             <div class="rombs-container">
