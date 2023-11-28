@@ -7,32 +7,34 @@ require_once 'header.php';
 ?>
 
     <section id="startSection" style="background: url('./public/img/index_start_bg.png');">
-        <h1>Фабрика кованных изделий</h1>
-        <div class="rombs-container">
-            <span class="romb"></span><span class="romb"></span><span class="romb"></span><span class="romb"></span>
-        </div>
-        <h2>Предприятие, которое специализируется на изготовлении кованых изделий</h2>
-        <button onclick="location.href='index#content'">подробнее</button>
-        <div class="contacts">
-            <div>
-                <span>Адрес</span>
-                <a href="https://2gis.kz/almaty/firm/70000001046851193" target="_blank">Фадеева 82</a>
+        <div class="start-section-stub">
+            <h1>Фабрика кованных изделий</h1>
+            <div class="rombs-container">
+                <span class="romb"></span><span class="romb"></span><span class="romb"></span><span class="romb"></span>
             </div>
-            <div>
-                <span>Телефон</span>
-                <a href="tel:+77074486128">+77074486128</a>
-            </div>
-            <div>
-                <span>Социальные сети</span>
+            <h2>Предприятие, которое специализируется на изготовлении кованых изделий</h2>
+            <button onclick="location.href='index#content'">подробнее</button>
+            <div class="contacts">
                 <div>
-                    <a href="https://www.instagram.com/fki.kz/" target="_blank">
-                        <img src="./public/img/icons/instagram.png" alt="instagram">
-                        Instagramm
-                    </a>
-                    <a href="https://www.youtube.com/@fki_kz" target="_blank">
-                        <img src="./public/img/icons/youtube.svg" alt="youtube">
-                        Youtube
-                    </a>
+                    <span>Адрес</span>
+                    <a href="https://2gis.kz/almaty/firm/70000001046851193" target="_blank">Фадеева 82</a>
+                </div>
+                <div>
+                    <span>Телефон</span>
+                    <a href="tel:+77074486128">+77074486128</a>
+                </div>
+                <div>
+                    <span>Социальные сети</span>
+                    <div>
+                        <a href="https://www.instagram.com/fki.kz/" target="_blank">
+                            <img src="./public/img/icons/instagram.png" alt="instagram">
+                            Instagramm
+                        </a>
+                        <a href="https://www.youtube.com/@fki_kz" target="_blank">
+                            <img src="./public/img/icons/youtube.svg" alt="youtube">
+                            Youtube
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>

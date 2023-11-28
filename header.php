@@ -40,18 +40,4 @@ if(!isset($title) || empty($title)) {
         </span>
     </header>
 
-<script>
-    fetch(decodeURIComponent(location.href))
-        .then(response => response.text())
-        .then(uri => {
-            document.querySelectorAll('header menu a').foreach((elementMenu) => {
-                if(elementMenu.getAttribute('href') === uri) {
-                    document.querySelector('header menu a.active').classList.remove('active');
-                    elementMenu.classList.add('active');
-                }
-            });
-        })
-        .catch(error => console.error('Ошибка при получении данных:', error));
-
-    
-</script>
+<script src="./public/js/menu.js"></script>
