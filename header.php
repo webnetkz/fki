@@ -22,7 +22,7 @@ if(!isset($title) || empty($title)) {
 <body>
     <header>
         <a href="index" class="logo">
-            <img src="./public/img/fki_black_logo.png" alt="logotype of fki">
+            <img src="./public/img/logo.png" alt="logotype of fki">
         </a>
         <menu>
             <a href="index#" class="active">Главная</a>

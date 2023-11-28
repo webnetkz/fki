@@ -85,7 +85,7 @@ header .logo:hover {
 }
 header .logo img {
     height: 35px;
-    filter: invert(100);
+    /* filter: invert(100); */
 }
 header menu {
     position: relative;
