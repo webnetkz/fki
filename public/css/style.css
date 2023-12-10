@@ -95,12 +95,12 @@ header menu a {
     margin-right: 7px;
     text-transform: uppercase;
     border: 1px solid rgba(0,0,0,0);
-    border-radius: var(--br);
     padding: 3px 9px;
 }
 header menu a.active,
 header menu a:hover {
-    border: 1px solid var(--red);
+    color: var(--white);
+    background: var(--red);
 }
 .menu-icon {
     position: fixed;
@@ -150,6 +150,14 @@ footer .copyright a {
     font-size: 0.8rem;
     text-transform: uppercase;
 }
+.mini-message {
+    position: fixed;
+    top: 50px;
+    width: 90vw;
+    left: 5vw;
+    padding: 5px 20px;
+    font-size: 1.3rem;
+}
 
 @media (max-width: 1199px) {
     .menu-icon {
@@ -159,12 +167,7 @@ footer .copyright a {
     footer .copyright a {
         font-size: 0.6rem;
     }
-}
-.mini-message {
-    position: fixed;
-    top: 50px;
-    width: 90vw;
-    left: 5vw;
-    padding: 5px 20px;
-    font-size: 1.3rem;
+    header menu a {
+        color: var(--white);
+    }
 }

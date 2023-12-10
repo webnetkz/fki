@@ -46,9 +46,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    backdrop-filter: blur(5px);
 }
 .contacts > div:hover {
-    backdrop-filter: blur(12px);
 }
 .contacts > div span {
     text-transform: uppercase;
@@ -58,6 +58,7 @@
     font-family: 'Aldrich';
     display: flex;
     align-items: center;
+    margin-bottom: 5px;
 }
 .contacts > div a img {
     width: 20px;
