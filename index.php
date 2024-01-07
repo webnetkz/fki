@@ -27,11 +27,11 @@ require_once 'header.php';
                     <span>Социальные сети</span>
                     <div>
                         <a href="https://www.instagram.com/fki.kz/" target="_blank">
-                            <img src="./public/img/icons/instagram.png" alt="instagram">
+                            <img loading="lazy" src="./public/img/icons/instagram.png" alt="instagram">
                             Instagramm
                         </a>
                         <a href="https://www.youtube.com/@fki_kz" target="_blank">
-                            <img src="./public/img/icons/youtube.svg" alt="youtube">
+                            <img loading="lazy" src="./public/img/icons/youtube.svg" alt="youtube">
                             Youtube
                         </a>
                     </div>
@@ -64,53 +64,53 @@ require_once 'header.php';
         <div class="our-projects-links">
             <div>
                 <a href="#">
-                    <img src="./public/img/fki/1.jpeg" alt="Fki images">
+                    <img loading="lazy" src="./public/img/fki/1.jpeg" alt="Fki images">
                 </a>
                 <a href="#">
-                    <img src="./public/img/fki/2.jpeg" alt="Fki images">
+                    <img loading="lazy" src="./public/img/fki/2.jpeg" alt="Fki images">
                 </a>
                 <a href="#">
-                    <img src="./public/img/fki/3.jpeg" alt="Fki images">
+                    <img loading="lazy" src="./public/img/fki/3.jpeg" alt="Fki images">
                 </a>
                 <a href="#">
-                    <img src="./public/img/fki/4.jpeg" alt="Fki images">
+                    <img loading="lazy" src="./public/img/fki/4.jpeg" alt="Fki images">
                 </a>
                 <a href="#">
-                    <img src="./public/img/fki/5.jpeg" alt="Fki images">
-                </a>
-            </div>
-            <div>
-                <a href="#">
-                    <img src="./public/img/fki/6.jpeg" alt="Fki images">
-                </a>
-                <a href="#">
-                    <img src="./public/img/fki/7.jpeg" alt="Fki images">
-                </a>
-                <a href="#">
-                    <img src="./public/img/fki/8.jpeg" alt="Fki images">
-                </a>
-                <a href="#">
-                    <img src="./public/img/fki/9.jpeg" alt="Fki images">
-                </a>
-                <a href="#">
-                    <img src="./public/img/fki/10.jpeg" alt="Fki images">
+                    <img loading="lazy" src="./public/img/fki/5.jpeg" alt="Fki images">
                 </a>
             </div>
             <div>
                 <a href="#">
-                    <img src="./public/img/fki/11.jpeg" alt="Fki images">
+                    <img loading="lazy" src="./public/img/fki/6.jpeg" alt="Fki images">
                 </a>
                 <a href="#">
-                    <img src="./public/img/fki/12.jpeg" alt="Fki images">
+                    <img loading="lazy" src="./public/img/fki/7.jpeg" alt="Fki images">
                 </a>
                 <a href="#">
-                    <img src="./public/img/fki/13.jpeg" alt="Fki images">
+                    <img loading="lazy" src="./public/img/fki/8.jpeg" alt="Fki images">
                 </a>
                 <a href="#">
-                    <img src="./public/img/fki/14.jpeg" alt="Fki images">
+                    <img loading="lazy" src="./public/img/fki/9.jpeg" alt="Fki images">
                 </a>
                 <a href="#">
-                    <img src="./public/img/fki/15.jpeg" alt="Fki images">
+                    <img loading="lazy" src="./public/img/fki/10.jpeg" alt="Fki images">
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <img loading="lazy" src="./public/img/fki/11.jpeg" alt="Fki images">
+                </a>
+                <a href="#">
+                    <img loading="lazy" src="./public/img/fki/12.jpeg" alt="Fki images">
+                </a>
+                <a href="#">
+                    <img loading="lazy" src="./public/img/fki/13.jpeg" alt="Fki images">
+                </a>
+                <a href="#">
+                    <img loading="lazy" src="./public/img/fki/14.jpeg" alt="Fki images">
+                </a>
+                <a href="#">
+                    <img loading="lazy" src="./public/img/fki/15.jpeg" alt="Fki images">
                 </a>
             </div>
         </div>
