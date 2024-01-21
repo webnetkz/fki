@@ -5,7 +5,7 @@
             <form method="POST" onsubmit="isSendForm(event)">
                 <div class="inputs">
                     <input type="text" name="name" placeholder="ИМЯ" required>
-                    <input type="phone" name="phone" placeholder="ТЕЛЕФОН" required>
+                    <input type="tel" name="phone" placeholder="ТЕЛЕФОН" required>
                 </div>
                 <div class="social-container">
                     <div class="textarea">
@@ -37,11 +37,11 @@
     </iframe>
 
     <footer>
-        <a href="price_2024.xls" download>
+        <!-- <a href="price_2024.xls" download>
             <button>
                 Скачать прайс
             </button>
-        </a>
+        </a> -->
         <span class="copyright">
             <a href="https://fki.kz">
                 <b>«Фабрика кованых изделий»</b>
