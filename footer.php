@@ -37,10 +37,15 @@
     </iframe>
 
     <footer>
+        <a href="price_2024.xls" download>
+            <button>
+                Скачать прайс
+            </button>
+        </a>
         <span class="copyright">
-            <a href="#">
+            <a href="https://fki.kz">
                 <b>«Фабрика кованых изделий»</b>
-                1997-2023 ©
+                1997-<?=date('Y')?> <small>Copyright ©</small>
             </a>
         </span>
     </footer>

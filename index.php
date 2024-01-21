@@ -13,7 +13,7 @@ require_once 'header.php';
                 <span class="romb"></span><span class="romb"></span><span class="romb"></span><span class="romb"></span>
             </div>
             <h2>Предприятие, которое специализируется на изготовлении кованых изделий</h2>
-            <button onclick="location.href='index#content'">подробнее</button>
+            <button><a href="price_2024.xls" download style="color: white;">Скачать прайс</a></button>
             <div class="contacts">
                 <div>
                     <span>Адрес</span>
