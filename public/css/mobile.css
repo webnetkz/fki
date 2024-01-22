@@ -21,6 +21,10 @@
         font-size: 2rem;
         margin-bottom: 1rem;
         border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+        width: 100vw;
+    }
+    header menu a.active {
+        background-color: black;
     }
     .menu-icon {
         display: block;
