@@ -154,11 +154,14 @@ footer .copyright a {
 }
 .mini-message {
     position: fixed;
-    top: 50px;
+    top: 30vh;
     width: 90vw;
     left: 5vw;
     padding: 5px 20px;
     font-size: 1.3rem;
+    z-index: 9999;
+    background: var(--red);
+    color: var(--white);
 }
 
 @media (max-width: 1199px) {

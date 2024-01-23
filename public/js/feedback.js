@@ -2,9 +2,9 @@ function isSendForm(event)
 {
     event.preventDefault();
 
-    let name = document.querySelector("input[name='name']").value;
-    let phone = document.querySelector("input[name='phone']").value;
-    let message = document.querySelector("textarea[name='message']").value;
+    let name = document.querySelector("input[name='name']");
+    let phone = document.querySelector("input[name='phone']");
+    let message = document.querySelector("textarea[name='message']");
 
 
     let xhr = new XMLHttpRequest();
@@ -40,5 +40,8 @@ function isSendForm(event)
         console.error("Ошибка сети");
     };
 
-    xhr.send("name=" + encodeURIComponent(name) + "&phone=" + encodeURIComponent(phone) + "&message=" + encodeURIComponent(message));
+    xhr.send("name=" + encodeURIComponent(name.value) + "&phone=" + encodeURIComponent(phone.value) + "&message=" + encodeURIComponent(message.value));
+    name.value = '';
+    phone.value = '';
+    message.value = '';
 }
