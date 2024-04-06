@@ -1,0 +1,22 @@
+#content {
+    width: 1200px;
+}
+#content h2 {
+    margin-top: 50px;
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 3rem;
+}
+#content hr {
+    margin: 50px;
+    border-color: rgba(0,0,0,0.5);
+}
+#content p {
+    margin-bottom: 25px;
+}
+
+@media (max-width: 1199px) {
+    #content {
+        width: 98vw;
+        margin-left: 1vw;
+    }
+}

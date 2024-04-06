@@ -1,0 +1,27 @@
+#portfolio {
+    margin-top: 50px;
+}
+.our-projects-links {
+    width: 100vw;
+}
+.our-projects-links div {
+    display: flex;
+    align-items: center;
+}
+.our-projects-links a img {
+    height: 20vw;
+    width: 20vw;
+    object-fit: cover;
+}
+.our-projects-links a img:hover {
+    transform: scale(0.9);
+}
+@media (max-width: 1200px) {
+    .our-projects-links {
+        flex-direction: column;
+    }
+    .our-projects-links a img {
+        height: 50vh;
+        width: 100vw;
+    }
+}
