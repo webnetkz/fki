@@ -18,6 +18,8 @@ if(!isset($title) || empty($title)) {
     <title><?=$title;?></title>
     <link rel="stylesheet" href="./public/css/style.css">
     <link rel="stylesheet" href="./public/css/mobile.css">
+
+    <meta name="google-site-verification" content="oRitUmPWEBGI1ZY97iPo2KbM81HDQXSmR1aReTmjPlo" />
 </head>
 <body>
     <header>

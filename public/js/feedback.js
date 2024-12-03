@@ -9,7 +9,7 @@ function isSendForm(event)
 
     let xhr = new XMLHttpRequest();
 
-    xhr.open("POST", "./app/telegram/send_message_telegram.php", true);
+    xhr.open("POST", "./app/send_message_telegram.php", true);
 
     xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 

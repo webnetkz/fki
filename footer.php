@@ -38,11 +38,6 @@
     </iframe>
 
     <footer>
-        <!-- <a href="price_2024.xls" download>
-            <button>
-                Скачать прайс
-            </button>
-        </a> -->
         <span class="copyright">
             <a href="https://fki.kz">
                 <b>«Фабрика кованых изделий»</b>
