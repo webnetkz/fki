@@ -43,6 +43,7 @@
                 <b>«Фабрика кованых изделий»</b>
                 1997-<?=date('Y')?> <small>Copyright ©</small>
             </a>
+			<p style="text-align: center;"><a href="https://webnet.kz">WebNet</a></p>
         </span>
     </footer>
 
